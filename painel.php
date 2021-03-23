@@ -3,6 +3,8 @@ session_start();
 include('verifica_login.php');
 ?>
 
+<!-- para ativar a janela modal só basta remover a tag de comentario na frente do modal(); ok -->
+
 <!DOCTYPE html>
 <html>
 <head>
