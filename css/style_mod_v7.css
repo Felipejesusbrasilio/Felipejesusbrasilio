@@ -1,0 +1,746 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+header
+{
+	/*border: 1px solid black;*/
+	height: 100px;
+	opacity: 0.9;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+.menu-phone
+{
+	/*border: 1px solid black;*/
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.menu-phone img
+{
+	width: 50px;
+	height: 50px;
+}
+
+.aparecer-menu-phone
+{
+	/*border: 1px solid black;*/
+	margin-top: 5px;
+	margin-left: 10px;
+	position: absolute;
+	background-color: #2EFE9A;
+	width: 310px;
+	height: 300px;
+	display: none;
+	opacity: 0.8;
+	z-index: 2;
+	animation: animar 0.6s;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+@keyframes animar {
+	from{height: 180px;}
+	to{height: 300px;}
+}
+
+.aparecer-menu-phone li
+{
+  /*border: 1px solid black;*/
+  list-style: none;
+}
+
+.aparecer-menu-phone a
+{
+	display: block;
+	color: black;
+	margin-left: 5px;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.aparecer-menu-phone a:hover
+{
+	text-decoration: none;
+	color: white;
+}
+
+.central
+{
+	/*border: 1px solid white;*/
+	margin-top: 5px;
+	height: 100px;
+	position: absolute;
+	z-index: 1;
+}
+
+.central .logado
+{
+	/*border: 1px solid white;*/
+	margin-left: -12px;
+	width: 110px;
+	height: 85px;
+}
+
+.logo
+{
+	/*border: 1px solid white;*/
+	margin-top: 5px;
+	height: 85px;
+	background-color: #2EFE9A;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.logo h4
+{
+	float: right;
+	color: white;
+}
+
+.logo img
+{
+	width: 77px;
+}
+
+
+.menu-phone .hidden
+{
+	display: none;
+}
+
+.central-jogos
+{
+	/*border: 1px solid black;*/
+	margin-top: 170px;
+	height: 100%;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.jogos_1
+{
+	/*border: 5px solid white;*/
+	margin-top: 20px;
+	height: 1080px;
+	background-color: #9400D3;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.jogos_1 .papel-parede
+{
+	border: 2px solid black;
+	height: 200px;
+	
+}
+
+.logo-bola
+{
+	/*border: 1px solid white;*/
+	width: 800px;
+	height: 400px;
+	float: right;
+	margin-right: 100px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+@media only screen and (max-width: 600px){
+	.logo-bola
+	{
+		display: none;
+	}
+}
+
+.logo-bola-phone
+{
+	/*border: 1px solid white;*/
+	height: 250px;
+	display: none;
+}
+
+@media only screen and (max-width: 600px){
+	.logo-bola-phone
+	{
+		margin-top: 10px;
+		display: block;
+	}
+}
+
+.jogos_1 .left
+{
+	border: 2px solid black;
+	height: 200px;
+	display: inline-block;
+	
+	
+}
+
+.jogos_1 .right
+{
+	border: 2px solid black;
+	height: 200px;
+	display: inline-block;
+	
+	
+}
+
+
+
+.jogos_1 .div-button
+{
+	border: 2px solid black;
+	height: 200px;
+	
+}
+
+.jogos_2
+{
+	/*border: 1px solid white;*/
+	margin-top: 20px;
+	height: 1080px;
+	background-color: #FF00FF;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.jogos_2 .papel-parede
+{
+	border: 2px solid black;
+	height: 200px;
+}
+
+.jogos_2 .left
+{
+	border: 2px solid black;
+	height: 200px;
+	display: inline-block;
+	
+}
+
+.jogos_2 .right
+{
+	border: 2px solid black;
+	height: 200px;
+	display: inline-block;
+	
+}
+
+
+
+.jogos_2 .div-button
+{
+  
+	border: 2px solid black;
+	height: 200px;
+	
+}
+
+.jogos_3
+{
+	/*border: 1px solid white;*/
+	margin-top: 20px;
+	height: 1080px;
+	background-color: #7CFC00;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.jogos_3 .papel-parede
+{
+  border: 2px solid black;
+  height: 200px;
+}
+
+.jogos_3 .left
+{
+  border: 2px solid black;
+	height: 200px;
+	display: inline-block;
+}
+
+.jogos_3 .right
+{
+    border: 2px solid black;
+	height: 200px;
+	display: inline-block;
+}
+
+
+
+.jogos_3 .div-button
+{
+	border: 2px solid black;
+	height: 200px;
+}
+
+
+.jogos_4
+{
+	/*border: 1px solid white;*/
+	margin-top: 20px;
+	height: 1080px;
+	background-color: #FFA500;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.jogos_4 .papel-parede
+{
+  border: 2px solid black;
+  height: 200px;
+}
+
+.jogos_4 .left
+{
+  border: 2px solid black;
+  height: 500px;
+  display: inline-block;
+}
+
+
+.jogos_4 .div-button
+{
+	border: 2px solid black;
+	height: 200px;
+}
+
+
+
+
+.botao:link,
+.botao:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 50px;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.botao:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.botao:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.botao::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.botao:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+.footer
+{
+	/*border: 1px solid black;*/
+	margin-top: 100px;
+	height: 100%;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.footer .fale-conosco
+{
+	color: white;
+	
+
+}
+
+.footer .formulario-faleconosco
+{
+	/*border: 1px solid white;*/
+	height: 100%;
+}
+
+.footer .formulario-faleconosco h1
+{
+	color: white;
+	font-size: 150%;
+}
+
+.footer .logo-whatsapp
+{
+	/*border: 1px solid white;*/
+	margin-top: 50px;
+	width: 300px;
+	height: 300px;
+	border-radius: 100%;
+	background-color: #7CFC00;
+	-webkit-animation: fa-blink .75s linear infinite;
+   -moz-animation: fa-blink .75s linear infinite;
+   -ms-animation: fa-blink .75s linear infinite;
+   -o-animation: fa-blink .75s linear infinite;
+   animation: fa-blink .75s linear infinite;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+ @keyframes fa-blink {
+     0% { opacity: 1; }
+     50% { opacity: 0.5; }
+     100% { opacity: 0; }
+ }
+
+
+ .footer .bola-blue
+ {
+ 	/*border: 1px solid white;*/
+ 	width: 250px;
+ 	height: 250px;
+ 	margin-left: 25px;
+ 	margin-top: -275px;
+ 	position: absolute;
+ 	border-radius: 100%;
+ 	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ }
+
+ .footer .formulario-faleconosco .whats
+ {
+ 	margin-top: 50px;
+ 	color: white;
+ }
+
+ .footer .bola-blue img
+ {
+ 	margin-left: 0px;
+ 	margin-top: 0px;
+ 	position: absolute;
+ }
+
+.numeracao
+{
+	border: 1px solid black;
+	width: 45px;
+	height: 40px;
+	float: right;
+	text-align: center;
+}
+
+.numeracao_2
+{
+    border: 1px solid black;
+	width: 45px;
+	height: 40px;
+	float: right;
+	text-align: center;	
+}
+
+.pisca_pisca
+{
+	animation: piscar 0.6s infinite;
+}
+
+.resultado_pisca
+{
+	background-color: green;
+	animation: pisca_result 0.6s;
+}
+
+
+@keyframes piscar{
+	from{background-color: #9400D3;}
+	to{background-color: red;}
+}
+
+@keyframes pisca_result{
+	from{background-color: red;}
+	to{background-color: green;}
+}
+
+@media only screen and (max-width: 600px){
+	.numeracao
+	{
+		width: 25px;
+		height: 22px;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.numeracao_2
+	{
+		width: 25px;
+		height: 22px;
+	}
+}
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #1E90FF;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  rgba(30,144,255,0.3) 0px 30px 60px -30px,
+  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.modal-content h1
+{
+	position: absolute;
+	margin-left: 150px;
+	margin-top: 50px;
+	font-weight: 900;
+	
+}
+
+.modal-body
+{
+	border: 2px solid black;
+	height: 1080px;
+	background-color: rgba(0,0,0,0.9);
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.modal-body span
+{
+	color: white;
+}
+
+.modal-body .nodification
+{
+	color: green;
+	font-weight: 900;
+}
+
+.modal-body #hora
+{
+	margin-left: 10px;
+}
+
+.modal-body #time
+{
+	margin-top: 100px;
+}
+
+.lotos
+{
+  /*border: 2px solid white;*/
+  margin-top: 20px;
+  height: 400px;
+  background-color: #1E90FF;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+ 
+}
+
+@media only screen and (max-width: 600px){
+	.modal-content h1
+	{
+		font-size: 25px;
+	}
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* aqui esta a nimação do button biscando */
+
+
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  min-width: 250px;
+  min-height: 60px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: #4FD1C5;
+  background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+  }
+
+button::before {
+content: '';
+  border-radius: 1000px;
+  min-width: calc(300px + 12px);
+  min-height: calc(60px + 12px);
+  border: 6px solid #00FFCB;
+  box-shadow: 0 0 60px rgba(0,255,203,.64);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+}
+
+.button:hover, .button:focus {
+  color: #313133;
+  transform: translateY(-6px);
+}
+
+button:hover::before, button:focus::before {
+  opacity: 1;
+}
+
+button::after {
+  content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  border: 6px solid #00FFCB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+}
+
+button:hover::after, button:focus::after {
+  animation: none;
+  display: none;
+}
+
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+
+.body-footer
+{
+	/*border: 2px solid white;*/
+  margin-top: 20px;
+  height: 150px;
+  background-color: #1E90FF;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px
+}
+
+@media only screen and (max-width: 600px){
+	.body-footer
+	{
+		height: 350px;
+	}
+}
+
+.logo-mercado-pg
+{
+  border: 1px solid black;
+  width: 95px;
+  height: 95px;
+  border-radius: 100%;
+  background-color: black;
+  float: right;
+  margin-top: 5px;
+  margin-right: 10px;
+  opacity: 0.9;
+}

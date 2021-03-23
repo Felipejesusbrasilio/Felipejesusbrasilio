@@ -1,0 +1,425 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+header
+{
+	/*border: 1px solid black;*/
+	height: 100px;
+	opacity: 0.9;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+.menu-phone
+{
+	/*border: 1px solid black;*/
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.menu-phone img
+{
+	width: 50px;
+	height: 50px;
+}
+
+.aparecer-menu-phone
+{
+	/*border: 1px solid black;*/
+	margin-top: 5px;
+	margin-left: 10px;
+	position: absolute;
+	background-color: #2EFE9A;
+	width: 310px;
+	height: 300px;
+	display: none;
+	opacity: 0.8;
+	z-index: 2;
+	animation: animar 0.6s;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+@keyframes animar {
+	from{height: 180px;}
+	to{height: 300px;}
+}
+
+.aparecer-menu-phone li
+{
+  /*border: 1px solid black;*/
+  list-style: none;
+}
+
+.aparecer-menu-phone a
+{
+	display: block;
+	color: black;
+	margin-left: 5px;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.aparecer-menu-phone a:hover
+{
+	text-decoration: none;
+	color: white;
+}
+
+.central
+{
+	/*border: 1px solid white;*/
+	margin-top: 5px;
+	height: 100px;
+	position: absolute;
+	z-index: 1;
+}
+
+.logo
+{
+	/*border: 1px solid white;*/
+	margin-top: 5px;
+	height: 85px;
+	background-color: #2EFE9A;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.logo h4
+{
+	float: right;
+	color: white;
+}
+
+.logo img
+{
+	width: 77px;
+}
+
+
+.menu-phone .hidden
+{
+	display: none;
+}
+
+
+.central-body
+{
+	/*border: 1px solid black;*/
+	height: 1080px;
+	background-image: url(../imagem/wallpaper.png);
+}
+
+.logo-login
+{
+	/*border: 1px solid white;*/
+	margin-top: 160px;
+	height: 400px;
+	background-color: #00BFFF;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.icone-central
+{
+	/*border: 1px solid white;*/
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	background-color: #151515;
+}
+
+
+.icone-central img
+{
+	width: 230px;
+	margin-left: 10px;
+}
+
+.icone-central h1
+{
+	margin-left: 70px;
+	margin-top: 50px;
+	color: white;
+}
+
+.central-body .formulario
+{
+  display: none;
+}
+
+.central-body form span
+{
+	font-weight: 900;
+}
+
+.central-body form .button
+{
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.central-body form .menssagem-acerto
+{
+	background-color: green;
+	color: white;
+}
+
+
+
+.form-login
+{
+	/*border: 1px solid white;*/
+	margin-top: 20px;
+	height: 400px;
+	background-color: #00BFFF;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.form-login form span
+{
+	font-weight: 900;
+}
+
+.form-login form .button
+{
+	width: 200px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+.form-login form .menssagem-erro
+{
+	background-color: red;
+	color: white;
+}
+
+.central-imagens
+{
+	/*border: 1px solid black;*/
+	height: 100%;
+
+}
+
+.lotomania
+{
+	/*border: 1px solid black;*/
+	width: 70%;
+	height: 200px;
+	margin-top: 10px;
+	background-color: #FFA500;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	
+}
+
+.lotomania img
+{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.megasena
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 200px;
+	margin-top: 10px;
+	background-color: #7CFC00;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.megasena img
+{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.lotofacil
+{
+	/*border: 1px solid black;*/
+	width: 90%;
+	height: 200px;
+	margin-top: 10px;
+	background-color: #FF00FF;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	
+}
+
+.lotofacil img
+{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.quina
+{
+	/*border: 1px solid black;*/
+	width: 80%;
+	height: 200px;
+	margin-top: 10px;
+	background-color: #9400D3;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.quina img
+{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.anuncio
+{
+	/*border: 1px solid black;*/
+	margin-top: 10px;
+	height: 200px;
+}
+
+.anuncio h3
+{
+	color: #0066b3;
+	font-family: "futura-lt-bold";
+	font-weight: 900;
+	margin-top: 15px;
+}
+
+
+.anuncio-gif
+{
+	/*border: 1px solid black;*/
+	height: 400px;
+	margin-top: 20px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.anuncio-gif img
+{
+	width: 100px;
+	margin-left: 0px;
+	margin-top: -13px;
+}
+
+.anuncio-gif .letras
+{
+	margin-left: 5px;
+	font-family: "futura-lt-bold";
+	color: white;
+	font-size: clamp(1em, 1em + 1vw, 1.5em);
+}
+
+.footer
+{
+	/*border: 1px solid black;*/
+	margin-top: 100px;
+	height: 100%;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.footer .fale-conosco
+{
+	color: white;
+	
+
+}
+
+.footer .formulario-faleconosco
+{
+	/*border: 1px solid white;*/
+	height: 100%;
+}
+
+.footer .formulario-faleconosco h1
+{
+	color: white;
+	font-size: 150%;
+}
+
+.footer .logo-whatsapp
+{
+	/*border: 1px solid white;*/
+	margin-top: 50px;
+	width: 300px;
+	height: 300px;
+	border-radius: 100%;
+	background-color: #7CFC00;
+	-webkit-animation: fa-blink .75s linear infinite;
+   -moz-animation: fa-blink .75s linear infinite;
+   -ms-animation: fa-blink .75s linear infinite;
+   -o-animation: fa-blink .75s linear infinite;
+   animation: fa-blink .75s linear infinite;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+ @keyframes fa-blink {
+     0% { opacity: 1; }
+     50% { opacity: 0.5; }
+     100% { opacity: 0; }
+ }
+
+
+ .footer .bola-blue
+ {
+ 	/*border: 1px solid white;*/
+ 	width: 250px;
+ 	height: 250px;
+ 	margin-left: 25px;
+ 	margin-top: -275px;
+ 	position: absolute;
+ 	border-radius: 100%;
+ 	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ }
+
+ .footer .formulario-faleconosco .whats
+ {
+ 	margin-top: 50px;
+ 	color: white;
+ }
+
+ .footer .bola-blue img
+ {
+ 	margin-left: 0px;
+ 	margin-top: 0px;
+ 	position: absolute;
+ }
+
+ .divulgacao
+ {
+	font-family: "futura-lt-bold";
+	font-weight: 700;
+	/*font-size: clamp(1em, 1em + 1vw, 1em);*/
+	float: right;
+	margin-right: 5px;
+	margin-top: -3px;
+ }
